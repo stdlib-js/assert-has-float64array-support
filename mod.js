@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./mod.d.ts" />
-var t="function"==typeof Symbol&&"symbol"==typeof Symbol("foo");var o=Object.prototype.toString;var r=Object.prototype.hasOwnProperty;var a="function"==typeof Symbol?Symbol.toStringTag:"";var n=t&&"symbol"==typeof Symbol.toStringTag?function(t){var n,l,e,y,c;if(null==t)return o.call(t);l=t[a],c=a,n=null!=(y=t)&&r.call(y,c);try{t[a]=void 0}catch(r){return o.call(t)}return e=o.call(t),n?t[a]=l:delete t[a],e}:function(t){return o.call(t)},l="function"==typeof Float64Array;var e="function"==typeof Float64Array?Float64Array:null;function y(){var t,o,r;if("function"!=typeof e)return!1;try{o=new e([1,3.14,-3.14,NaN]),r=o,t=(l&&r instanceof Float64Array||"[object Float64Array]"===n(r))&&1===o[0]&&3.14===o[1]&&-3.14===o[2]&&o[3]!=o[3]}catch(o){t=!1}return t}export{y as default};
-//# sourceMappingURL=mod.js.map
