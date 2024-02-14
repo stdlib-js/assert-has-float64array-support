@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import hasFloat64ArraySupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-float64array-support@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-has-float64array-support/tags). For example,
+
+```javascript
 import hasFloat64ArraySupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-float64array-support@v0.2.0-esm/index.mjs';
 ```
 
@@ -70,7 +75,7 @@ var bool = hasFloat64ArraySupport();
 <body>
 <script type="module">
 
-import hasFloat64ArraySupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-float64array-support@v0.2.0-esm/index.mjs';
+import hasFloat64ArraySupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-float64array-support@esm/index.mjs';
 
 var bool = hasFloat64ArraySupport();
 if ( bool ) {
