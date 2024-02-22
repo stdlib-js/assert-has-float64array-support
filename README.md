@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+hasFloat64ArraySupport = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-float64array-support@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-has-float64array-support/tags). For example,
+
+```javascript
 hasFloat64ArraySupport = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-float64array-support@v0.2.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var hasFloat64ArraySupport = require( 'path/to/vendor/umd/assert-has-float64arra
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-float64array-support@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-float64array-support@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -92,7 +97,7 @@ var bool = hasFloat64ArraySupport();
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-float64array-support@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-float64array-support@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
